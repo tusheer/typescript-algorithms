@@ -1,4 +1,4 @@
-import desToBinary from '../';
+import desToBinary from '..';
 
 describe('Test decimal to binary', () => {
     it('should pass descimal to binary', () => {
