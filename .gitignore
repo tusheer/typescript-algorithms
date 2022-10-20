@@ -12,6 +12,8 @@ styles/build.css
 /.next/
 /out/
 
+/lib
+lib
 # production
 /build
 styles/build.css

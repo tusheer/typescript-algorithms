@@ -1,20 +1,17 @@
 const decToBinary = (n: number): number => {
-    // To store the binary number
-    let B_Number = 0;
-    let cnt = 0;
+    let bin = 0;
+    let rem,
+        i = 1;
+
     while (n != 0) {
-        const rem = n % 2;
-        const c = Math.pow(10, cnt);
-        B_Number += rem * c;
-
-        n = parseInt(n / 2);
-
-        // Count used to store exponent value
-        cnt++;
+        rem = n % 2;
+        const devidedByTow = n / 2;
+        n = parseInt(devidedByTow.toString());
+        bin = bin + rem * i;
+        i = i * 10;
     }
 
-    console.log(B_Number);
-    return B_Number;
+    return bin;
 };
 
 export default decToBinary;
