@@ -1,4 +1,4 @@
-import reverse from '../index';
+import reverse from '..';
 
 describe('Test reverse character of senter', () => {
     it('should pass reverse the string', () => {

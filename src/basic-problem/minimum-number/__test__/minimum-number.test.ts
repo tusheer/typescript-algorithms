@@ -1,4 +1,4 @@
-import minimumNumber from '../index';
+import minimumNumber from '..';
 
 describe('find minimum number from array of numbers', () => {
     it('should find minumum number', () => {

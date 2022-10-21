@@ -5,5 +5,7 @@
     // Add those two lines:
     "source.organizeImports": true,
     "editor.formatOnSave": true, // Tell VSCode to format files on save
-    "editor.defaultFormatter": "esbenp.prettier-vscode" // Tell VSCode to use Prettier as default file formatter
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "jest.jestCommandLine": "npm run test --watch",
+    "jest.autoRun": "watch" // Tell VSCode to use Prettier as default file formatter
 }

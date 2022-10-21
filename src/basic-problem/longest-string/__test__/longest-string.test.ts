@@ -1,4 +1,4 @@
-import longest from '../index';
+import longest from '..';
 
 describe('longest-string', () => {
     it('Should check with random string', () => {

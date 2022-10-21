@@ -1,4 +1,4 @@
-import power from '../index';
+import power from '..';
 
 describe('Test power of n', () => {
     it('should pass power of with random number', () => {
